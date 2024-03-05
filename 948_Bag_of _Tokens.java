@@ -1,7 +1,7 @@
 //948. Bag of Tokens
-  // in this question our first step is to sort the array  and here we have two pointer low and high low will be pointed to the initial index and high will be pointing to 
+  // In this question our first step is to sort the array, and here we have two pointer low and high. Low will be pointed to the initial index and high will be pointing to 
 //the last index
-// because it will give convenience to us that if we have power grater than low then we can increase our score and reduce the power  as power -= tokens[low] and our
+// because it will give convenience to us that if we have power greater than low then we can increase our score and reduce the power  as power -= tokens[low] and our
 //low pointer will also shift
 
 //but if our current score is greater than 1 and low!=high then we will decrease our score and power += tokens[high] and we will return score low !=high case is specifcally for
