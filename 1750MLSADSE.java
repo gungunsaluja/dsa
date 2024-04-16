@@ -15,13 +15,8 @@ class Solution {
         while(low<=high && s.charAt(low)==ch){
           low++}
         while(low<=high && s.charAt(high)==ch){
-          high--}
-        
-
-        
+          high--}        
       }
       return high - low +1;
-    
-      
     }
 }
