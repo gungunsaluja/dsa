@@ -1,1 +1,1 @@
-Leetcode's solution 
+Leetcode's solution .
